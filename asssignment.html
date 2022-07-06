@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Users Stories</h2>
+    <p>1. As a user ,I want to see a multi choise question when the website loads.You will<br> create 
+    the multi-choice question to be answered on the website.Each question should<br>
+have a number of points awarded when scored right</p>
+    <form id="#query" style="align-items: center; width: 200px;height:150px;margin-left: 100px;">
+        <p>Please select your favorite Web language:</p>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML1</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript1" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form>
+      <br>
+      <form style="align-items: center; width: 200px;height:150px;margin-left: 100px;">
+        <p>Please select your favorite Mobile  devlanguage:</p>
+          <input type="radio" id="java" name="fav_language" value="java">
+          <label for="html">Java</label><br>
+          <input type="radio" id="kotlin" name="fav_language" value="kotlin">
+          <label for="css">Kotlin</label><br>
+          <input type="radio" id="flutter" name="fav_language" value="Flutter">
+          <label for="javascript">Flutter</label>
+      </form>
+      <button type="sunmit" onclick="myFunction()" style="background-color:green;color: white;">Submit</button>
+      <p id="demo"></p>
+      <script>
+          var marks1;
+          var marks2;
+          function myFunction(){
+              if(document.getElementById("html").checked && document.getElementById("java").checked){
+                  var marks1=20;
+                  var marks2=32;
+              }
+              else if(document.getElementById("html").checked && document.getElementById("kotlin").checked){
+                  var marks1=20;
+                  var marks2=14
+              }
+              else if(document.getElementById("html").checked && document.getElementById("flutter").checked){
+                  var marks1=20;
+                  var marks2=18
+              }
+              else if(document.getElementById("css").checked && document.getElementById("java").checked){
+                  var marks1=21;
+                  var marks2=32;
+              }
+              else if(document.getElementById("css").checked && document.getElementById("kotlin").checked){
+                  var marks1=21;
+                  var marks2=14
+              }
+              else if(document.getElementById("css").checked && document.getElementById("flutter").checked){
+                  var marks1=21;
+                  var marks2=18;
+              }
+              else if(document.getElementById("javascript1").checked && document.getElementById("java").checked){
+                  var marks1=12;
+                  var marks2=32;
+              }
+              else if(document.getElementById("javascript1").checked && document.getElementById("kotlin").checked){
+                  var marks1=12;
+                  var marks2=14;
+              }
+              else if(document.getElementById("javascript1").checked && document.getElementById("flutter").checked){
+                  var marks1=12;
+                  var marks2=18;
+              }
+            
+              document.getElementById("demo").innerHTML=(marks1+marks2)
+          }
+      </script>
+      
+</body>
+</html>

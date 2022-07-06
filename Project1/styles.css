@@ -1,0 +1,51 @@
+body{
+    background: white;
+    color: black;
+    text-align: center;
+   
+}
+#InputField{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid aqua;
+}
+#AddToDo{
+   background-color: aqua;
+    border-radius: 50px;
+    width: 70px;
+    color: rgba(121, 9, 9, 0.795);
+    height: 30px;
+    font-size: 20px;
+
+}
+.toDos{
+    margin-top: 25px;
+
+}
+.paragraph-styling{
+    margin: 0%;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+   background-color: brown;
+   padding: 10px;
+}
+.paragraph-styling1{
+    margin: 0%;
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+   background-color: rgb(112, 177, 16);
+   padding: 10px;
+}

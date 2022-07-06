@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>My Apartment Kenya</title>
+</head>
+<body>
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.header{
+background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(images/pexels-pixabay-164634.jpg);
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+nav{
+    font-size: 30px;
+    display: flex;
+    float: right;
+    
+   
+}
+.logo{
+    color: greenyellow;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.header nav a{
+    margin-top: 90px;
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.header nav button{
+    margin-top: 80px;
+    color:black;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 2px dotted greenyellow;
+    border-radius: 25px;
+    background-color:greenyellow ;
+    padding: 10px;
+}
+.wall{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+span{
+font-size: 60px;
+color: brown;
+}
+.header h1{
+    text-align: center;
+    color: greenyellow;
+}
+form{
+    display: inline-block;
+    border: 2px solid greenyellow;
+    height: 60px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+   position: relative;
+}
+form :first-child{
+    width: 200px;
+    height: 60px;
+    border-width:0px;
+    color: black;
+    border:none;
+    outline:none;
+    border-top-left-radius: 25px;
+    border-radius: 25px;
+}
+form :last-child{
+    border:2px solid;
+    background-color: greenyellow;
+    border-radius: 24px;
+    text-align: center;
+    align-items: flex-end;
+    height: 50px;
+    width: 80px;
+}
+.topnav{
+   text-align: right;
+    margin-top: 50px;
+}
+.topnav a{
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 24px;
+    margin-left: 30px;
+    color: white;
+    background-color: chartreuse;
+    text-decoration: underline dotted red;
+
+}
+.topnav a.active{
+    background-color: rgb(179, 46, 52); 
+}
+
+    </style>
+   <section class="header">
+       <nav>
+             <h2  class="logo">My <span> A</span>partment Kenya</h2>
+           </div>
+            <a href="home" class="Active" id="home">Home</a>
+               <a href="home" id="contactUs">Contact Us</a>
+               <a href="Location.html" id="logIn">Locate Apartment</a>
+               <a href="Blog.html" id="Blog">Blog</a>
+               <button type="button" id="subcribe">Subscribe</button>
+       </nav>
+       <div class="wall">
+       <h1><span>M</span>y Apartment Kenya</h1>
+       <p>One of the best things about CSS is that it gives us the ability<br>
+            to position content and elements on a page in nearly any imaginable way,<br>
+            bringing structure to our designs and helping make content more digestible.</p>
+            <form id="form">
+                <input type="email" placeholder="Enter Email" id="email">
+                <button type="button" id="start">Let's Start</button>
+            </form>
+    </div>
+   </section>
+</body>
+<script src="index.js"></script>
+</html>

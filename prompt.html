@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="myFunction()">Try It</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            var text;
+            let person=prompt("Please enter your name","User name");
+            if(person==null || person==""){
+                text="Please enter a valid text"
+
+            }
+            else{
+                text="Hello "+ person+"! How are you today?"
+            }
+            document.getElementById("demo").innerHTML=text
+        }
+    </script>
+</body>
+</html>

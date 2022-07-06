@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="name"></h1>
+    <p id="demo"></p>
+    
+    <script>
+        let person={
+            fname:"Sammy",
+            lname:"Mureithi",
+            age:21,
+            //we can have our object mehos here
+            name:function (){
+                
+                return this.fname +" "+ this.lname;
+            }
+
+        }
+        function fullname(){
+            return person.fname+" "+person.lname;
+        }
+        document.getElementById("name").innerHTML=person.name()
+
+
+        document.getElementById("demo").innerHTML=fullname()+" is "+person.age +" years old"
+    </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.header{
+background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(images/pexels-pixabay-164634.jpg);
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+nav{
+    font-size: 30px;
+    display: flex;
+    float: right;
+    
+   
+}
+.logo{
+    color: greenyellow;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.header nav a{
+    margin-top: 90px;
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.header nav button{
+    margin-top: 80px;
+    color:black;
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-right: 70px;
+    border: 2px dotted greenyellow;
+    border-radius: 25px;
+    background-color:greenyellow ;
+    padding: 10px;
+}
+.wall{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+span{
+font-size: 60px;
+color: brown;
+}
+.header h1{
+    text-align: center;
+    color: greenyellow;
+}
+form{
+    display: inline-block;
+    border: 2px solid greenyellow;
+    height: 60px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+   position: relative;
+}
+form :first-child{
+    width: 200px;
+    height: 60px;
+    border-width:0px;
+    color: black;
+    border:none;
+    outline:none;
+    border-top-left-radius: 25px;
+    border-radius: 25px;
+}
+form :last-child{
+    border:2px solid;
+    background-color: greenyellow;
+    border-radius: 24px;
+    text-align: center;
+    align-items: flex-end;
+    height: 50px;
+    width: 80px;
+}
+.topnav{
+   text-align: right;
+    margin-top: 50px;
+}
+.topnav a{
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 24px;
+    margin-left: 30px;
+    color: white;
+    background-color: chartreuse;
+    text-decoration: underline dotted red;
+
+}
+.topnav a.active{
+    background-color: rgb(179, 46, 52); 
+}
+
+
+#Juja{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.juja{
+    display: inline-flex;
+    width: 100%;
+    height: 75%;
+}
+
+.con1{
+    border-radius: 25px;
+    margin: 20px;
+    border: 2px solid chartreuse;
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(images/pexels-pixabay-164634.jpg);
+    background-color: black;
+    background-size: cover;
+  
+    
+}
+
+.con1 p,h1,h2{
+   align-items: center;
+   display:none;
+   
+}
+.con1 span{
+    font-size: 30px;
+    color: chartreuse;
+}
+#T3{
+    text-decoration: underline;   
+}
+
+.con2{
+    border-radius: 25px;
+    margin: 20px;
+    border: 2px solid chartreuse;
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(images/pexels-sourav-mishra-1149831.jpg);
+    background-color: black;
+    background-size: cover;
+  
+    
+}
+
+.con2 p,h1,h2{
+   align-items: center;
+   display:none;
+   
+}
+.con2 span{
+    font-size: 30px;
+    color: chartreuse;
+}
+#KT3{
+    text-decoration: underline;   
+}
+.con3{
+    border-radius: 25px;
+    margin: 20px;
+    border: 2px solid chartreuse;
+    height: 70%;
+    width: 30%;
+    text-align: center;
+    background-image: linear-gradient(rgb(4,9,3,0.7),rgb(4,9,3,0.7)),url(images/pexels-chevanon-photography-302899.jpg);
+    background-color: black;
+    background-size: cover;
+  
+    
+}
+
+.con3 p,h1,h2{
+   align-items: center;
+   display:none;
+   
+}
+.con3 span{
+    font-size: 30px;
+    color: chartreuse;
+}
+#ST3{
+    text-decoration: underline;   
+}

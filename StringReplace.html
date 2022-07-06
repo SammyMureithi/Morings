@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button type="button" onclick="myFun()">Try It</button>
+    <p id="demoP">Please visit Microsoft and Microsoft Edge</p>
+    <p id="demoP1">Please visit Microsoft and Microsoft Edge</p>
+    <script>
+        function myFun(){
+            let text=document.getElementById("demoP").innerHTML;
+            //the 'i' omits the case sensitive it of our replace but repalce sonly the first instance
+          document.getElementById("demoP").innerHTML=text.replace(/MICROSOFT/i,"Muringa");
+          // here we replace all the occurance but not in case insensitive manner
+          text2=document.getElementById("demoP1").innerHTML;
+          document.getElementById("demoP1").innerHTML=text2.replace(/Microsoft/g,"MURINGA");
+            
+        }
+    </script>
+</body>
+</html>

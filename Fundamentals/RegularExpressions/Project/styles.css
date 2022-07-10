@@ -1,0 +1,21 @@
+nav{
+    float: right;
+   
+}
+nav li{
+    display: inline-block;
+    border: solid 2px red;
+    border-radius: 20px;
+    padding: 20px;
+    margin-inline-end: 20px;
+    background-color: greenyellow;
+}
+.onHover{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.onMouseOut{
+    background-color: greenyellow;
+    color: black;
+}

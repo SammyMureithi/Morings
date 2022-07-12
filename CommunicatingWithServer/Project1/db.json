@@ -1,0 +1,86 @@
+{
+    "Machines": [
+      {
+        "id": 1,
+        "image":"Img/10.jpg",
+        "name": " Ford Mustang GT 500",
+        "price": "1300",
+        "description": "The sun glistening off the chrome mirrors, the khaki top down the wind flowing through the car, the white interior stitched with red almost as if it is a baseball"
+       
+      },
+      {
+        "id": 2,
+        "image":"Img/1.jpg",
+        "name": "Shelby Mustang",
+        "price": "5200",
+        "description": "The  candy apple red paint glistening in the sun the two white race stripes cutting down the lanes on sand covered road, the heat of the California desert blaring off the asphalt the humid wind "
+       
+      },
+
+      {
+        "id": 3,
+        "image":"Img/2.jpg",
+        "name": "Ferrari",
+        "price": "8200",
+        "description": "The dashboard is illuminated with all kinds of lights, after market back lights light up the speedometer with a low green tone, the back lights on the tachometer are illuminated with a low red glow, the steering wheel has a khaki outer rim with metal in links all leading"
+       
+      },
+      {
+        "id": 4,
+        "image":"Img/3.jpg",
+        "name": "Mark X",
+        "price": "4200",
+        "description": "The car picks speed up again, this time hitting 120 mph the car roars like i lion as it takes off, going faster the gas gauge reads a quarter of a tank just enough for the driver to get "
+       
+      },
+      {
+        "id": 5,
+        "image":"Img/4.jpg",
+        "name": "BMW",
+        "price": "3200",
+        "description": " The beauty of the car in the city lights as they shine bright off of it, as the driver pulls off the main stretch of road into his sub division, pulls into his driveway opens his garage and pulls up next to his other "
+       
+      },
+      {
+        "id": 6,
+        "image":"Img/5.jpg",
+        "name": "Mercidice",
+        "price": "1700",
+        "description": "Ford Mustang GT 500 roll into his garage as the roar of the engine is silenced the lights are shut off the beast is put to sleep awaiting the chance that it"
+       
+      },
+      {
+        "id": 7,
+        "image":"Img/6.jpg",
+        "name": "Toyota",
+        "price": "1200",
+        "description": "California as the garage closes so does the end of a beautiful day of driving the monster, as the car sits in the garage awaiting the next time its gets to roam"
+       
+      },
+      {
+        "id": 8,
+        "image":"Img/7.jpg",
+        "name": "Bush Gardens",
+        "price": "2300",
+        "description": "You shift the car into first gear and begin to creep forward to the drag strip. You pull up to the starting line and wait. "
+       
+      },
+      {
+        "id": 9,
+        "image":"Img/8.jpg",
+        "name": "Proga",
+        "price": "3500",
+        "description": "Overhead on the loudspeakers an announcer calls, “Up next, is a 1968 Camaro going against a 1965 Mustang Fastback. The Camaro is fitted with a 327 cubic inch engine and puts out about 210 horses while the Mustang"
+       
+      },
+      {
+        "id": 10,
+        "image":"Img/9.jpg",
+        "name": "Poogas",
+        "price": "3700",
+        "description": "The Advantages of Superchargers and Turbochargers: Types of Forced Induction The light turns red and you slowly come to a stop driving your 1992 GMC Syclone equipped with a 280 horsepower 4.3 liter V-6 teamed up with a four speed automatic transmission"
+       
+      }
+     
+    ]
+  }

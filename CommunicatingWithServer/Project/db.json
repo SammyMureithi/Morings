@@ -1,0 +1,28 @@
+{
+    "Products": [
+      {
+        "id": 1,
+        "name": "Progas",
+        "price": "3200",
+        "Refill": 1700
+      },
+      {
+        "id": 2,
+        "name": "Hass",
+        "price": "3000",
+        "Refill": 1500
+      },
+      {
+        "id": 3,
+        "name": "Mpishi",
+        "price": "3000",
+        "Refill": 1500
+      },
+      {
+        "id": 4,
+        "name": "Ola",
+        "price": "3500",
+        "Refill": 2000
+      }
+    ]
+  }

@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+}
+table{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table tr th{
+    margin: 8px;
+    padding: 20px;
+  
+}
+table th,table td{
+    border: 1px solid gray;
+    padding: 8px;
+
+}
+table tbody  {
+ text-align: center;
+}
+#head{
+    background-color: greenyellow;
+}
+.mouseOver{
+    background-color: brown;
+}
+#data-output tr :hover{
+    background-color: brown;
+}
+  
+ 
+  
+  #customers tr:hover {background-color: #ddd;}
+  

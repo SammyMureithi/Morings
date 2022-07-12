@@ -1,0 +1,55 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "name": "Progas",
+      "price": "3200",
+      "quantity": 80,
+      "Refill": 1700
+    },
+    {
+      "id": 2,
+      "name": "Hass",
+      "price": "3000",
+      "quantity": 70,
+      "Refill": 1500
+    },
+    {
+      "id": 3,
+      "name": "Mpishi",
+      "price": "3000",
+      "quantity": 60,
+      "Refill": 1500
+
+    },
+    {
+      "id": 4,
+      "name": "Ola",
+      "price": "3500",
+      "quantity": 80,
+      "Refill": 2000
+    },
+    {
+      "name": "Viza LpG",
+      "price": "3000",
+      "quantity": 90,
+      "Refill": 1700,
+      "id": 5
+    },
+    {
+      "name": "Viza LpG",
+      "price": "3000",
+      "Refill": 1700,
+      "quantity": 9,
+      "id": 6
+    },
+    {
+      "name": "Mure LpG",
+      "price": "2500",
+      "Refill": 1300,
+      "quantity": 17,
+      "id": 7
+    }
+   
+  ]
+}
